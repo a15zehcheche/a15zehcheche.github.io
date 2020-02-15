@@ -28,9 +28,12 @@ body{
 */
 .map{
     position: relative;
-    width: 2000px;
-    height: 1000px;
+    width: 2400px;
+    height: 1708px;
     background-color: green;
+    background-image: url("./lolmap.png");
+    background-repeat: no-repeat;
+
 }
 #bottomRight{
     position: absolute;

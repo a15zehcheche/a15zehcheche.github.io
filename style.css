@@ -10,7 +10,7 @@ body{
     width: 100%;
     background-color: burlywood;
 }
-.player h1{
+.player p{
     margin-left: 20px
 }
 .mapcontainer{

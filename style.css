@@ -19,7 +19,13 @@ body{
     background-color: green;
     overflow-x: scroll;
     overflow-y: scroll; 
+   
 }
+/*
+.mapcontainer::-webkit-scrollbar { 
+    display: none; 
+} 
+*/
 .map{
     position: relative;
     width: 2000px;
@@ -83,7 +89,8 @@ flex layout
 }
 #col1 {
     background-color: yellow;
-    width: 100%;
+    width: 98%;
+    padding: 1%;
 }
 #col2 {
     background-color: orange;

@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.player{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    background-color: burlywood;
+}
+.player h1{
+    margin-left: 20px
+}
+.mapcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+}
+.map{
+    position: relative;
+    width: 2000px;
+    height: 1000px;
+    background-color: green;
+}
+#bottomRight{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+#bottomLeft{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+#topLeft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+#topRight{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.flexBox{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+/*
+flex layout
+*/
+
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+#row1 {
+    background-color: red;
+}
+#row2 {
+    background-color: blue;
+}
+#row3 {
+    background-color: green;
+    flex:2;
+    display: flex;
+}
+#col1 {
+    background-color: yellow;
+    width: 100%;
+}
+#col2 {
+    background-color: orange;
+    flex: 1 1;
+}
+#col3 {
+    background-color: purple;
+    flex: 0 0 240px;
+}

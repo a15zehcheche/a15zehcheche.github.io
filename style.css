@@ -7,11 +7,12 @@ body{
 
 .playerContainer{
     display: flex;
-    flex-direction: row; 
-    width: 100%;
+    flex-direction: column; 
+
     /*background-color:rgba(59, 238, 214, 0.3);*/
     position: absolute;
     top: 0;
+    right: 0;
     z-index: 1;
     /*opacity: 0.5;*/
 }

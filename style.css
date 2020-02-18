@@ -47,11 +47,11 @@ body{
 
 .map{
     position: relative;
-    width: 2400px;
+    width: 2368px;
    
-    height: 1708px;
-    
-    background-image: url("./lolmap.png");
+    height: 2368px;
+    scale: 0.5;
+    /*background-image: url("./map.png");*/
     background-color: green;
 
 }
